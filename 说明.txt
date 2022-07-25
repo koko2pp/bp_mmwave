@@ -1,0 +1,10 @@
+1、redar-demo_finish.zip是可运行的演示项目，运行后其包含两个Demo：1、手势识别控制音乐播发器 2、手势追踪实现飞机大战游戏
+
+2、radar-demo_records.zip是用来录手势的代码。
+
+3、GestureSoli.zip是用来训练神经网络模型的python代码，安装TensorFlow时务必选择1.6及以下版本，
+   否则训练的模型文件.pb保存的格式和Android中使用的tensorflow jar包不兼容
+  （当然也可以考虑升级Android项目中的TensorFlow 1.6到更高版本，但是兼容性比较难搞=_=。）。
+
+4、运行MusicPlayer之前，Music/和MusicPics/文件夹需要务必事先拷贝到Android手机存储的根目录下。
+
